@@ -32,4 +32,8 @@ class Principal extends CI_Controller {
         echo 'terminando al Sistema'.date('d-m-Y H:i:s').'<br/>';
     }
 
+    public function prueba() {
+        $this->load->view('programa/principal');
+    }
+
 }
